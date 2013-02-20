@@ -17,15 +17,15 @@ strings at the end of your comment and the comment will be wrapped
 respectively with console.log(), console.warn(), console.error();
 
 ## Options
- --in-place, -i:   overwrite existing file with the new one
- --directory, -d:  specify a directory, all .js files inside directory will be parsed and elaborated
+ --in-place, -i:   overwrite existing file with the new one  
+ --directory, -d:  specify a directory, all .js files inside directory will be parsed and elaborated  
  --help, -h:       print help
 
 ## Examples
 ###code
-// This will be a log <-{l}
-// This will be a warn <-{w}
-// This will be an error <-{e}  
+// This will be a log <-{l}  
+// This will be a warn <-{w}  
+// This will be an error <-{e}
 
 ### cli
 log-comments [OPTIONS] [FILE]

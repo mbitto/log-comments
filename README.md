@@ -25,7 +25,7 @@ respectively with console.log(), console.warn(), console.error();
 ###code
 // This will be a log <-{l}
 // This will be a warn <-{w}
-// This will be an error <-{e}  
+// This will be an error <-{e}
 
 ### cli
 log-comments [OPTIONS] [FILE]

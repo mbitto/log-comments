@@ -1,0 +1,153 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.2.2
+3 info using node@v0.8.18
+4 verbose publish [ '.' ]
+5 verbose read json /home/manuel/Documents/progetti/logComments/package.json
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { pathname: '.', path: '.', href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /home/manuel/.npm/3a52ce78-.lock
+11 verbose read json package.json
+12 verbose tar pack [ '/home/manuel/tmp/npm-26369/1361381063678-0.8416997673921287/tmp.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball /home/manuel/tmp/npm-26369/1361381063678-0.8416997673921287/tmp.tgz
+14 verbose folder .
+15 info prepublish logComments@0.1.0
+16 silly lockFile eb9abe6d-63678-0-8416997673921287-tmp-tgz /home/manuel/tmp/npm-26369/1361381063678-0.8416997673921287/tmp.tgz
+17 verbose lock /home/manuel/tmp/npm-26369/1361381063678-0.8416997673921287/tmp.tgz /home/manuel/.npm/eb9abe6d-63678-0-8416997673921287-tmp-tgz.lock
+18 silly lockFile eb9abe6d-63678-0-8416997673921287-tmp-tgz /home/manuel/tmp/npm-26369/1361381063678-0.8416997673921287/tmp.tgz
+19 verbose tar unpack /home/manuel/tmp/npm-26369/1361381063678-0.8416997673921287/tmp.tgz
+20 silly lockFile cfc1fed0-63678-0-8416997673921287-package /home/manuel/tmp/npm-26369/1361381063678-0.8416997673921287/package
+21 verbose lock /home/manuel/tmp/npm-26369/1361381063678-0.8416997673921287/package /home/manuel/.npm/cfc1fed0-63678-0-8416997673921287-package.lock
+22 silly gunzTarPerm modes [ '755', '644' ]
+23 silly gunzTarPerm extractEntry package.json
+24 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+25 silly gunzTarPerm extractEntry .npmignore
+26 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+27 silly gunzTarPerm extractEntry README.md
+28 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+29 silly gunzTarPerm extractEntry grunt.js
+30 silly gunzTarPerm modified mode [ 'grunt.js', 436, 420 ]
+31 silly gunzTarPerm extractEntry lib/logComments.js
+32 silly gunzTarPerm extractEntry LICENSE-MIT
+33 silly gunzTarPerm modified mode [ 'LICENSE-MIT', 436, 420 ]
+34 silly gunzTarPerm extractEntry .idea/workspace.xml
+35 silly gunzTarPerm modified mode [ '.idea/workspace.xml', 436, 420 ]
+36 silly gunzTarPerm extractEntry .idea/modules.xml
+37 silly gunzTarPerm modified mode [ '.idea/modules.xml', 436, 420 ]
+38 silly gunzTarPerm extractEntry .idea/cssxfire.xml
+39 silly gunzTarPerm modified mode [ '.idea/cssxfire.xml', 436, 420 ]
+40 silly gunzTarPerm extractEntry .idea/logComments.iml
+41 silly gunzTarPerm modified mode [ '.idea/logComments.iml', 436, 420 ]
+42 silly gunzTarPerm extractEntry .idea/misc.xml
+43 silly gunzTarPerm modified mode [ '.idea/misc.xml', 436, 420 ]
+44 silly gunzTarPerm extractEntry .idea/vcs.xml
+45 silly gunzTarPerm modified mode [ '.idea/vcs.xml', 436, 420 ]
+46 silly gunzTarPerm extractEntry .idea/.name
+47 silly gunzTarPerm modified mode [ '.idea/.name', 436, 420 ]
+48 silly gunzTarPerm extractEntry .idea/scopes/scope_settings.xml
+49 silly gunzTarPerm modified mode [ '.idea/scopes/scope_settings.xml', 436, 420 ]
+50 silly gunzTarPerm extractEntry .idea/libraries/sass_stdlib.xml
+51 silly gunzTarPerm modified mode [ '.idea/libraries/sass_stdlib.xml', 436, 420 ]
+52 silly gunzTarPerm extractEntry .idea/encodings.xml
+53 silly gunzTarPerm modified mode [ '.idea/encodings.xml', 436, 420 ]
+54 silly gunzTarPerm extractEntry test/logComments_test.js
+55 silly gunzTarPerm modified mode [ 'test/logComments_test.js', 436, 420 ]
+56 verbose read json /home/manuel/tmp/npm-26369/1361381063678-0.8416997673921287/package/package.json
+57 silly lockFile cfc1fed0-63678-0-8416997673921287-package /home/manuel/tmp/npm-26369/1361381063678-0.8416997673921287/package
+58 verbose from cache /home/manuel/tmp/npm-26369/1361381063678-0.8416997673921287/package/package.json
+59 verbose tar pack [ '/home/manuel/.npm/logComments/0.1.0/package.tgz',
+59 verbose tar pack   '/home/manuel/tmp/npm-26369/1361381063678-0.8416997673921287/package' ]
+60 verbose tarball /home/manuel/.npm/logComments/0.1.0/package.tgz
+61 verbose folder /home/manuel/tmp/npm-26369/1361381063678-0.8416997673921287/package
+62 silly lockFile 6752e5f7-pm-logComments-0-1-0-package-tgz /home/manuel/.npm/logComments/0.1.0/package.tgz
+63 verbose lock /home/manuel/.npm/logComments/0.1.0/package.tgz /home/manuel/.npm/6752e5f7-pm-logComments-0-1-0-package-tgz.lock
+64 silly lockFile 6752e5f7-pm-logComments-0-1-0-package-tgz /home/manuel/.npm/logComments/0.1.0/package.tgz
+65 silly lockFile 23ac70cc-el-npm-logComments-0-1-0-package /home/manuel/.npm/logComments/0.1.0/package
+66 verbose lock /home/manuel/.npm/logComments/0.1.0/package /home/manuel/.npm/23ac70cc-el-npm-logComments-0-1-0-package.lock
+67 silly lockFile 23ac70cc-el-npm-logComments-0-1-0-package /home/manuel/.npm/logComments/0.1.0/package
+68 verbose tar unpack /home/manuel/.npm/logComments/0.1.0/package.tgz
+69 silly lockFile 23ac70cc-el-npm-logComments-0-1-0-package /home/manuel/.npm/logComments/0.1.0/package
+70 verbose lock /home/manuel/.npm/logComments/0.1.0/package /home/manuel/.npm/23ac70cc-el-npm-logComments-0-1-0-package.lock
+71 silly gunzTarPerm modes [ '755', '644' ]
+72 silly gunzTarPerm extractEntry package.json
+73 silly gunzTarPerm extractEntry .npmignore
+74 silly gunzTarPerm extractEntry README.md
+75 silly gunzTarPerm extractEntry grunt.js
+76 silly gunzTarPerm extractEntry lib/logComments.js
+77 silly gunzTarPerm extractEntry LICENSE-MIT
+78 silly gunzTarPerm extractEntry .idea/workspace.xml
+79 silly gunzTarPerm extractEntry .idea/modules.xml
+80 silly gunzTarPerm extractEntry .idea/cssxfire.xml
+81 silly gunzTarPerm extractEntry .idea/logComments.iml
+82 silly gunzTarPerm extractEntry .idea/misc.xml
+83 silly gunzTarPerm extractEntry .idea/vcs.xml
+84 silly gunzTarPerm extractEntry .idea/.name
+85 silly gunzTarPerm extractEntry .idea/scopes/scope_settings.xml
+86 silly gunzTarPerm extractEntry .idea/libraries/sass_stdlib.xml
+87 silly gunzTarPerm extractEntry .idea/encodings.xml
+88 silly gunzTarPerm extractEntry test/logComments_test.js
+89 verbose read json /home/manuel/.npm/logComments/0.1.0/package/package.json
+90 silly lockFile 23ac70cc-el-npm-logComments-0-1-0-package /home/manuel/.npm/logComments/0.1.0/package
+91 silly shasum updated bytes 6661
+92 info shasum da3ceed43d11dd6aa1db7d749ae7309604650a32
+92 info shasum /home/manuel/.npm/logComments/0.1.0/package.tgz
+93 verbose from cache /home/manuel/.npm/logComments/0.1.0/package/package.json
+94 verbose chmod /home/manuel/.npm/logComments/0.1.0/package.tgz 644
+95 verbose chown /home/manuel/.npm/logComments/0.1.0/package.tgz [ 1000, 1000 ]
+96 silly lockFile 3a52ce78- .
+97 silly publish { name: 'logComments',
+97 silly publish   description: 'Convert JavaScript comments in log',
+97 silly publish   version: '0.1.0',
+97 silly publish   homepage: 'https://github.com/mbitto/logComments',
+97 silly publish   author:
+97 silly publish    { name: 'Manuel Bitto',
+97 silly publish      email: 'manuel.bitto@gmail.com',
+97 silly publish      url: 'mbitto.com' },
+97 silly publish   repository: { type: 'git', url: 'git://github.com/mbitto/logComments' },
+97 silly publish   devDependencies: { optimist: '*' },
+97 silly publish   keywords: [ 'log', 'comments' ],
+97 silly publish   bugs: { url: 'https://github.com/mbitto/logComments/issues' },
+97 silly publish   licenses:
+97 silly publish    [ { type: 'MIT',
+97 silly publish        url: 'https://github.com/mbitto/logComments/blob/master/LICENSE-MIT' } ],
+97 silly publish   main: 'lib/logComments',
+97 silly publish   engines: { node: '>= 0.6.0' },
+97 silly publish   scripts: { test: 'grunt test' },
+97 silly publish   preferGlobal: 'true',
+97 silly publish   bin: { logComments: 'lib/logComments.js' },
+97 silly publish   readme: '# logComments\nConvert JavaScript comments in log\n\n## Getting Started\nInstall the module with: `npm install logComments`\n\n## Documentation\nThis tool should help in some rare situations, where you want your app to log for debugging purpose, but only\nin testing or in production environment, so you don\'t want be distracted by a bloat of logs when you are developing.\nJust put one of these three <-{l}, <-{w}, <-{e}, strings at the end of your comment and the comment will be wrapped\nrespectively with console.log(), console.warn(), console.error();\n\n## Options:\n --in-place, -i:   overwrite existing file with the new one\n --directory, -d:  specify a directory, all .js files inside directory will be parsed and elaborated\n --help, -h:       print help\n\n## Examples\nlogComments [OPTIONS] [FILE]\n\n\n## Contributing\nIn lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [grunt](https://github.com/gruntjs/grunt).\n\n\n## Release History\n_(Nothing yet)_\n\n## License\nCopyright (c) 2013 Manuel Bitto  \nLicensed under the MIT license.\n',
+97 silly publish   readmeFilename: 'README.md',
+97 silly publish   _id: 'logComments@0.1.0',
+97 silly publish   dist: { shasum: 'da3ceed43d11dd6aa1db7d749ae7309604650a32' },
+97 silly publish   _from: '.' }
+98 verbose url raw logComments
+99 verbose url resolving [ 'https://registry.npmjs.org/', './logComments' ]
+100 verbose url resolved https://registry.npmjs.org/logComments
+101 info trying registry request attempt 1 at 18:24:24
+102 http PUT https://registry.npmjs.org/logComments
+103 http 403 https://registry.npmjs.org/logComments
+104 error publish Failed PUT response 403
+105 error Error: forbidden New packages must have all-lowercase names: logComments
+105 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:259:14)
+105 error     at Request.init.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/main.js:120:22)
+105 error     at Request.EventEmitter.emit (events.js:99:17)
+105 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/main.js:648:16)
+105 error     at Request.EventEmitter.emit (events.js:126:20)
+105 error     at IncomingMessage.Request.start.self.req.self.httpModule.request.buffer (/usr/local/lib/node_modules/npm/node_modules/request/main.js:610:14)
+105 error     at IncomingMessage.EventEmitter.emit (events.js:126:20)
+105 error     at IncomingMessage._emitEnd (http.js:366:10)
+105 error     at HTTPParser.parserOnMessageComplete [as onMessageComplete] (http.js:149:23)
+105 error     at CleartextStream.socketOnData [as ondata] (http.js:1447:20)
+106 error If you need help, you may report this log at:
+106 error     <http://github.com/isaacs/npm/issues>
+106 error or email it to:
+106 error     <npm-@googlegroups.com>
+107 error System Linux 3.7.6-201.fc18.i686.PAE
+108 error command "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+109 error cwd /home/manuel/Documents/progetti/logComments
+110 error node -v v0.8.18
+111 error npm -v 1.2.2
+112 verbose exit [ 1, true ]

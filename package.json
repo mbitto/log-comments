@@ -1,0 +1,43 @@
+{
+    "name":"log-comments",
+    "description":"Convert JavaScript comments in log",
+    "version":"0.1.0",
+    "homepage":"https://github.com/mbitto/log-comments",
+    "author":{
+        "name":"Manuel Bitto",
+        "email":"manuel.bitto@gmail.com",
+        "url":"mbitto.com"
+    },
+    "repository":{
+        "type":"git",
+        "url":"git://github.com/mbitto/log-comments"
+    },
+    "devDependencies":{
+        "optimist":"*"
+    },
+    "keywords":[
+        "log",
+        "comments"
+    ],
+    "bugs":{
+        "url":"https://github.com/mbitto/log-comments/issues"
+    },
+    "licenses":[
+        {
+            "type":"MIT",
+            "url":"https://github.com/mbitto/log-comments/blob/master/LICENSE-MIT"
+        }
+    ],
+    "main":"lib/log-comments",
+    "engines":{
+        "node":">= 0.6.0"
+    },
+    "scripts":{
+        "test":"grunt test"
+    },
+    "preferGlobal":"true",
+    "bin":{
+        "log-comments":"lib/log-comments.js"
+    }
+
+}

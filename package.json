@@ -1,7 +1,7 @@
 {
     "name":"log-comments",
     "description":"Convert JavaScript comments in log",
-    "version":"0.1.0",
+    "version":"0.2.0",
     "homepage":"https://github.com/mbitto/log-comments",
     "author":{
         "name":"Manuel Bitto",
@@ -13,7 +13,8 @@
         "url":"git://github.com/mbitto/log-comments"
     },
     "devDependencies":{
-        "optimist":"*"
+        "optimist":"*",
+        "file":"*"
     },
     "keywords":[
         "log",
@@ -39,5 +40,4 @@
     "bin":{
         "log-comments":"lib/log-comments.js"
     }
-
 }
